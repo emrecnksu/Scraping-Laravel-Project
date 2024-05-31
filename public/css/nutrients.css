@@ -1,0 +1,111 @@
+body {
+    background-color: #f8f9fa;
+    margin: 6% ;
+}
+
+
+body .row {
+    color: #212121;
+}
+
+
+.container {
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.cont-a {
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #17a2b8 ;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.cont-a .navbar-brand {
+    font-size: 17px;
+}
+
+
+.container .nutrient-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+form .input-group .form-control {
+    font-weight: 500;
+}
+
+
+.container .input-group .btn-primary-custom {
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #17a2b8 ;
+}
+
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #fff; 
+}
+
+
+.square:last-child {
+    border-right: none; 
+}
+
+
+body .nutrients-numbers {
+    color: #212121;
+}
+
+
+.nutrients-numbers .row .square .kkfs16 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.nutrients-numbers .row .square .kkfsNutrients-carb {
+    color: #9DC2BA;
+    font-weight: bolder;
+}
+
+.nutrients-numbers .row .square .kkfsNutrients-protein {
+    color: #FC905B;
+    font-weight: bolder;
+}
+
+
+.nutrients-numbers .row .square .kkfsNutrients-fat {
+    color: #FDC74F;
+    font-weight: bolder;
+}
+
+
+.nutrients-numbers .row .square .kkBigNumber {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+
+.nutrients-numbers .nut_gr {
+    font-size: 16px;
+    font-weight: 400;
+}

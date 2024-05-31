@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+.container-nutrients {
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 4%;
+}
+
+
+.container-nutrients .scraping-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-nutrients .container{
+    padding: 20px;
+}
+
+
+.colorBlack {
+    text-decoration: none;
+    color: black;
+}
+
+
+.kkAnasayfaPopulerBesinlerBox {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+
+.kkAnasayfaPopulerBesinlerBox:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.kkAnasayfaPopulerBesinlerBox img {
+    width: 100%;
+    height: auto;
+}
